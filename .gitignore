@@ -1,1 +1,14 @@
+.classpath
+.DS_Store
+.sfdx
+.vscode
+.project
+.salesforce
+node_modules
+.idea
+.tern-project
+.settings
+selenium-client-jars/
+test/artifacts
 .sfdx/tools/apex.db
+.vscode/settings.json
