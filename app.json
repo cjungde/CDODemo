@@ -1,5 +1,5 @@
 {
-  "name": "TestConfig",
+  "name": "TestConfig 2",
   "version": "0.0.1",
   "description": "Test application for the salesforce-dx-buildpack",
   "repository": "https://github.com/wadewegner/salesforce-dx-pipeline-sample",
