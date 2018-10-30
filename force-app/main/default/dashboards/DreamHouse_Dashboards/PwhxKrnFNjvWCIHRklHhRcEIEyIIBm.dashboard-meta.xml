@@ -3,6 +3,10 @@
     <backgroundEndColor>#FFFFFF</backgroundEndColor>
     <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
     <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <chartTheme>light</chartTheme>
+    <colorPalette>justice</colorPalette>
+    <dashboardChartTheme>light</dashboardChartTheme>
+    <dashboardColorPalette>justice</dashboardColorPalette>
     <dashboardGridLayout>
         <dashboardGridComponents>
             <colSpan>2</colSpan>
@@ -21,6 +25,7 @@
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
                 <report>DreamHouse_Reports/Properties_by_Broker</report>
+                <showRange>false</showRange>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
             <rowSpan>3</rowSpan>
@@ -113,9 +118,8 @@
         <numberOfColumns>9</numberOfColumns>
         <rowHeight>80</rowHeight>
     </dashboardGridLayout>
-    <dashboardType>SpecifiedUser</dashboardType>
+    <dashboardType>LoggedInUser</dashboardType>
     <isGridLayout>true</isGridLayout>
-    <runningUser></runningUser>
     <textColor>#000000</textColor>
     <title>My Dashboard</title>
     <titleColor>#000000</titleColor>
