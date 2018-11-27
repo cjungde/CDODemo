@@ -16,7 +16,7 @@ global with sharing class PropertyController {
 
     @AuraEnabled(cacheable=true)
     public static PropertyListPage getPropertyListPage(String searchKey, Decimal minPrice, Decimal maxPrice, Integer numberBedrooms, Integer numberBathrooms, String visualSearchKey, Decimal pageSize, Decimal pageNumber) {
-		Integer pSize = (Integer)pageSize;
+		Integer pSize = (Integer)pageSize; 
         String key = '%' + searchKey + '%';
         String visualKey = '%' + visualSearchKey + '%';
         Integer offset = ((Integer)pageNumber - 1) * pSize;
