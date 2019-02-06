@@ -4,7 +4,7 @@ public class JWT {
     public String iss {get;set;}
     public String sub {get;set;}
     public String aud {get;set;}
-    public String exp {get;set;}
+    public String exp {get;set;} 
     public String iat {get;set;}
     public Map<String,String> claims {get;set;}
     public Integer validFor {get;set;}
