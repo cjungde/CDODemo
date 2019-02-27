@@ -5,6 +5,7 @@
         "Communities",
         "ServiceCloud",
         "Chatbot"
+        "LIVEAGENT"
     ],
     "settings": {
         "orgPreferenceSettings": {
@@ -14,6 +15,9 @@
         },
         "omniChannelSettings": {
             "enableOmniChannel": true
-        }
+        },
+        "liveAgentSettings": {
+            "enableLiveAgent": true
+          }
     }
 }
